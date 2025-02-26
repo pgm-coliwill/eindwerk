@@ -1,0 +1,31 @@
+.registerLayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns: half screen each */
+  height: 100vh;                  /* Full viewport height */
+  width: 100%;
+}
+
+/* Left column for your form/content */
+.left {
+  /* Optional styling */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; /* or any background you want */
+}
+
+/* Right column for your image */
+.right {
+  position: relative; /* Needed for <Image fill> to only fill this column */
+  overflow: hidden;   /* In case you want to clip the image if it overflows */
+}
+
+@media (max-width: 768px) {
+  .registerLayout {
+    grid-template-columns: 1fr; /* Stack the columns vertically */
+  }
+  .right {
+    display: none; /* Hide the image on smaller screens */
+  }
+}
+

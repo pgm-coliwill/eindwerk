@@ -35,7 +35,7 @@ export default function Navbar() {
         {/* Desktop Authentication Buttons */}
         <div className={styles.authContainer}>
           <button className="primary">
-            <Link href="#">Registreer</Link>
+            <Link href="/register">Registreer</Link>
           </button>
           <button className="secondary">
             <Link href="#">Login</Link>
