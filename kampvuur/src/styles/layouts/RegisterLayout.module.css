@@ -5,20 +5,17 @@
   width: 100%;
 }
 
-
 .left {
- 
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #fff; /* or any background you want */
-  padding: 2rem;
+  padding: var(--spacing-lg); /* Add some padding */
 }
 
-
 .right {
-  position: relative; /* Needed for <Image fill> to only fill this column */
-  overflow: hidden; /* In case you want to clip the image if it overflows */
+  position: relative; 
+  overflow: hidden; 
 }
 
 @media (max-width: 768px) {

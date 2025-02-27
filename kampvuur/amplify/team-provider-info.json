@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-kampvuur-dev-dee3c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::084828570050:role/amplify-kampvuur-dev-dee3c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::084828570050:role/amplify-kampvuur-dev-dee3c-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-kampvuur-dev-dee3c-deployment",
+      "UnauthRoleName": "amplify-kampvuur-dev-dee3c-unauthRole",
+      "StackName": "amplify-kampvuur-dev-dee3c",
+      "StackId": "arn:aws:cloudformation:eu-central-1:084828570050:stack/amplify-kampvuur-dev-dee3c/19721ed0-f521-11ef-abef-0ace103182cb",
+      "AmplifyAppId": "dlwbw5pr6oyw1"
+    }
+  }
+}
