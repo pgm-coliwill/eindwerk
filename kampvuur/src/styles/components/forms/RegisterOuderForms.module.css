@@ -1,7 +1,7 @@
 .flexForm {
   display: flex;
   width: 100%;
-  gap: var(--spacing-sm); /* Optional: add spacing between inputs */
+  gap: var(--spacing-sm); 
 }
 
 .flexForm > div {
