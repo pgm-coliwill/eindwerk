@@ -1,0 +1,494 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/styles/components/buttons/ButtonWithArrow.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************/
+.ButtonWithArrow_buttonWithArrow__F6Hef {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  transition: all 0.3s ease;
+}
+
+.ButtonWithArrow_buttonWithArrow__F6Hef:hover {
+  gap: var(--spacing-lg);
+  transition: all 0.3s ease;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/styles/pages/Home.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Home_heroTitle__K5Xyp {
+  font-size: clamp(32px, 5vw, 58px);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.Home_heroSubtitle__DOS9z {
+  font-size: clamp(16px, 2vw, 20px);
+  width: 90%;
+  max-width: 600px;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+.Home_heroTextContainer__2IwL7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.Home_heroImage__OekcC {
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.Home_heroSection__LeFyG {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+@media (max-width: 768px) {
+  .Home_heroSection__LeFyG {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Home_heroTextContainer__2IwL7 {
+    align-items: center;
+    padding: 10px;
+  }
+
+  .Home_heroSubtitle__DOS9z {
+    width: 100%;
+  }
+}
+
+/* logo banner */
+
+.Home_logoBanner__vHRs5 {
+  overflow-x: clip;
+  white-space: nowrap;
+  position: relative;
+  background-color: #f9fafb; /* Optioneel */
+  padding: 10px 0;
+}
+
+.Home_logoBannerImage__rXOMF {
+  margin: 0 2rem; /* ✅ Reduce margin */
+  max-width: 100%;
+  height: auto;
+}
+
+.Home_logoBannerImageContainer__DlYc4 {
+  width: 130px; /* Default size */
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2rem;
+}
+
+/* Responsive: Medium screens */
+@media (max-width: 1024px) {
+  .Home_logoBannerImageContainer__DlYc4 {
+    width: 100px; /* Reduce size */
+    height: 75px;
+  }
+}
+
+/* Responsive: Small screens */
+@media (max-width: 768px) {
+  .Home_logoBannerImageContainer__DlYc4 {
+    width: 80px; /* Further reduce size */
+    height: 80px;
+  }
+}
+
+/* Responsive: Mobile screens */
+@media (max-width: 480px) {
+  .Home_logoBannerImageContainer__DlYc4 {
+    width: 60px; /* Even smaller for phones */
+    height: 80px;
+  }
+}
+
+/* info section */
+
+.Home_buttonContainer__sxPbQ {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: center;
+  justify-content: center;
+}
+
+.Home_cardGrid__5s9aG {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+  justify-content: center;
+  place-content: center;
+  width: 100%; /* Ensures full width */
+  max-width: 1200px; /* Prevents excessive stretching */
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .Home_cardGrid__5s9aG {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-auto-flow: dense;
+  }
+
+  /* Ensure the third card spans the full width */
+  .Home_cardGrid__5s9aG > *:nth-child(3) {
+    grid-column: span 2;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .Home_cardGrid__5s9aG {
+    grid-template-columns: 1fr; /* Single column */
+    justify-content: center; /* Centers the column */
+    align-items: center; /* Ensures proper vertical alignment */
+    display: flex; /* Switches to flex for full centering */
+    flex-direction: column; /* Ensures stacked layout */
+  }
+}
+
+/* testimonials */
+
+.Home_testimonialSection__2hdl2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/styles/components/cards/BenefitsCardHero.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+.BenefitsCardHero_card__jOFeh {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--gray);
+  border-radius: var(--radius-md);
+  padding: var(--padding-lg);
+  gap: var(--padding-md);
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.BenefitsCardHero_descriptionContainer__Rgb_W {
+  max-width: 250px;
+  margin: 0 auto;
+  font-family: var(--font-primary);
+}
+
+.BenefitsCardHero_hidden__OMo_H {
+  display: none;
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/styles/globals/navBar.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.navBar_navbarContainer__z897T {
+  width: 100%;
+  background-color: var(--gray);
+  padding: var(--spacing-md);
+}
+
+.navBar_navbar___WqeY {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* Desktop Navigation Links */
+.navBar_navlinks__vqTtX {
+  display: flex;
+  gap: var(--spacing-xl);
+  font-family: var(--font-secondary);
+}
+
+/* Desktop Authentication Buttons */
+.navBar_authContainer__7bv4L {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+/* Hamburger Button (Hidden on Desktop) */
+.navBar_hamburger__ITc0K {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Full-Screen Mobile Menu Overlay */
+.navBar_mobileMenu__PQ08f {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: var(--spacing-md);
+}
+
+/* Mobile Navigation Links */
+.navBar_mobileNavlinks__Wg9EC {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Mobile Authentication Container */
+.navBar_mobileAuthContainer__2st67 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+/* Close Button for Mobile Menu */
+.navBar_closeMenu__fDMtY {
+  position: absolute;
+  top: var(--spacing-md);
+  right: var(--spacing-md);
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .navBar_hamburger__ITc0K {
+    display: block;
+  }
+  
+  /* Hide desktop navigation on mobile */
+  .navBar_navlinks__vqTtX,
+  .navBar_authContainer__7bv4L {
+    display: none;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/styles/components/cards/TestimonialCards.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+.TestimonialCards_cardContainer__znyt_ {
+  display: flex;
+  align-items: stretch; /* Ensure both columns are equal height */
+  border-radius: var(--radius-xxl);
+  background-color: var(--gray);
+  width: 60%;
+  margin: 0 auto;
+  padding: 0; /* Remove padding so image takes full height */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden; /* Prevent image from overflowing */
+}
+
+.TestimonialCards_cardContainer__znyt_:hover {
+  transform: translateY(-5px);
+}
+
+.TestimonialCards_imageContainer__7FHSP {
+  flex: 1; /* Takes 50% of width */
+  max-width: 50%; /* Ensures it never exceeds half */
+  height: 100%; /* Full height of the card */
+}
+
+.TestimonialCards_image__HKY9N {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures full coverage without distortion */
+}
+
+.TestimonialCards_textContainer__u1sbj {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-lg);
+}
+
+.TestimonialCards_role__0CeLz {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.TestimonialCards_textContainer__u1sbj h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.TestimonialCards_textContainer__u1sbj p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .TestimonialCards_cardContainer__znyt_ {
+    width: 80%;
+  }
+
+  .TestimonialCards_textContainer__u1sbj {
+    padding: var(--spacing-md);
+  }
+}
+
+@media (max-width: 768px) {
+  .TestimonialCards_cardContainer__znyt_ {
+    flex-direction: column; 
+    width: 90%;
+  }
+
+  .TestimonialCards_imageContainer__7FHSP {
+    max-width: 100%; 
+    height: 200px; 
+  }
+
+  .TestimonialCards_textContainer__u1sbj {
+    padding: var(--spacing-md);
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .TestimonialCards_cardContainer__znyt_ {
+    width: 100%;
+  }
+
+  .TestimonialCards_imageContainer__7FHSP {
+    height: 180px; 
+  }
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/styles/globals/footer.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.footer_footer__vhMIl {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: var(--spacing-lg) 0;
+}
+
+.footer_footerContainer__fvy7O {
+  background-color: var(--gray);
+  padding: var(--spacing-lg) var(--spacing-md);
+}
+
+.footer_buttonContainer__KRdhG {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer_socialLinks__rqenG {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer_leftContainer__b2_k3 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  max-width: 300px;
+}
+
+.footer_rightContainer__bkeiJ {
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.footer_navContainer__y6cos {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.footer_navTitle__4ftEP {
+  font-weight: 700;
+  font-family: var(--font-secondary);
+}
+
+.footer_navLinks__5S3Bx {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  font-family: var(--font-secondary);
+}
+
+
+
+
+@media (max-width: 1024px) {
+  .footer_footer__vhMIl {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer_leftContainer__b2_k3 {
+    align-items: center;
+    max-width: none;
+  }
+
+  .footer_rightContainer__bkeiJ {
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer_rightContainer__bkeiJ {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-lg);
+  }
+
+  .footer_navContainer__y6cos {
+    width: 100%;
+  }
+
+  .footer_socialLinks__rqenG {
+    justify-content: center;
+  }
+}
+
