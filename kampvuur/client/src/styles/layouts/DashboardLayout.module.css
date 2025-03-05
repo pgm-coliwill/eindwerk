@@ -1,0 +1,7 @@
+.dashboardLayout {
+  display: flex;
+}
+
+.mainContent {
+  margin-left: 230px;
+}
